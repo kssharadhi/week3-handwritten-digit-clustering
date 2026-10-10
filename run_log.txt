@@ -1,0 +1,45 @@
+Dataset: 1797 handwritten images, 64 pixel features, 10 digits
+K-Means k=6: silhouette=0.1012
+K-Means k=8: silhouette=0.1318
+K-Means k=10: silhouette=0.1468
+K-Means k=12: silhouette=0.1621
+Hierarchical k=10: silhouette=0.1376
+
+Classification report on 360 held-out examples:
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000        36
+           1      0.921     0.972     0.946        36
+           2      0.897     1.000     0.946        35
+           3      1.000     0.973     0.986        37
+           4      0.971     0.944     0.958        36
+           5      1.000     1.000     1.000        37
+           6      0.973     1.000     0.986        36
+           7      0.946     0.972     0.959        36
+           8      0.969     0.886     0.925        35
+           9      1.000     0.917     0.957        36
+
+    accuracy                          0.967       360
+   macro avg      0.968     0.966     0.966       360
+weighted avg      0.968     0.967     0.967       360
+
+Results saved to: outputs
+{
+  "dataset_size": 1797,
+  "pixel_features": 64,
+  "training_samples": 1437,
+  "test_samples": 360,
+  "kmeans_k10_silhouette": 0.1468,
+  "hierarchical_k10_silhouette": 0.1376,
+  "baseline_test_accuracy": 0.1,
+  "best_knn_neighbors": 3,
+  "best_cv_macro_f1": 0.9762,
+  "test_accuracy": 0.9667,
+  "test_macro_precision": 0.9678,
+  "test_macro_recall": 0.9664,
+  "test_macro_f1": 0.9663,
+  "test_macro_roc_auc_ovr": 0.9907,
+  "test_micro_roc_auc_ovr": 0.9908,
+  "pca_2d_variance_explained": 0.2159,
+  "random_state": 42
+}
