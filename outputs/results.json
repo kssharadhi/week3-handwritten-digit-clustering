@@ -1,0 +1,19 @@
+{
+  "dataset_size": 1797,
+  "pixel_features": 64,
+  "training_samples": 1437,
+  "test_samples": 360,
+  "kmeans_k10_silhouette": 0.1468,
+  "hierarchical_k10_silhouette": 0.1376,
+  "baseline_test_accuracy": 0.1,
+  "best_knn_neighbors": 3,
+  "best_cv_macro_f1": 0.9762,
+  "test_accuracy": 0.9667,
+  "test_macro_precision": 0.9678,
+  "test_macro_recall": 0.9664,
+  "test_macro_f1": 0.9663,
+  "test_macro_roc_auc_ovr": 0.9907,
+  "test_micro_roc_auc_ovr": 0.9908,
+  "pca_2d_variance_explained": 0.2159,
+  "random_state": 42
+}
