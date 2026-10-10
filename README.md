@@ -84,9 +84,3 @@ This is a classroom experiment using a fixed public dataset, not a deployed OCR 
 
 Scikit-learn `load_digits()` (a copy of the UCI handwritten digits test dataset). See the dataset documentation:
 https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html
-
-## Suggested GitHub repository name
-
-`week3-handwritten-digit-clustering`
-
-Upload `main.py`, `requirements.txt`, `README.md`, and `outputs/` to your own GitHub repository. The submission website requests the URL of a real repository for technical projects. This folder does not invent or contain a fake repository URL.
